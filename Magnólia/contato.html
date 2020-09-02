@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <title>Magnólia Cosméticos</title>
+</head>
+
+<body>
+    <header>
+        <div class="topheader">
+            Enviamos para todo o Brasil
+        </div>
+        <div class="mainheader">
+            <h1><a href="index.html">Magnólia Cosméticos</a></h1>
+        </div>
+    </header>
+    <h2>Contato</h2>
+    <form action="contato.php" method="POST">
+        <fieldset>
+            <legend>
+                Informações Pessoais
+            </legend>
+            <label for="nome">
+                Nome <br />
+            </label>
+            <input type="text" name="nome" size="40" placeholder="Digite seu nome." required/> <br/> <br/>
+
+            <label for="email">
+                E-Mail <br/>
+            </label>
+            <input type="email" name="email" size="40" placeholder="Digite um e-mail válido." required/> <br/> <br/>
+        </fieldset>
+        <fieldset>
+            <legend>Sua Mensagem</legend>
+            <label for="assunto">
+                Assunto
+            </label>
+            <select name="assunto" id="topic">
+                <option value="">
+                    Selecione uma opção
+                </option>
+                <option value="info">
+                    Informações
+                </option>
+                <option value="prob">
+                    Problemas
+                </option>
+                <option value="elo">
+                    Elogios
+                </option>
+            </select>
+            <label for="mensagem">
+
+            </label>
+            <br/>
+            <br/>
+            <textarea name="mensagem" cols="80" rows="6" placeholder="Digite aqui sua mensagem." required></textarea>
+        </fieldset>
+    </form>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="marca.html">A Marca</a></li>
+                <li><a href="pele.html">Pele</a></li>
+                <li><a href="cabelo.html">Cabelo</a></li>
+                <li><a href="kits.html">Kits</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

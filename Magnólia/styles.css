@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Playfair Display SC', serif;
+    margin: 10px auto;
+    width: 960px;
+}
+
+.topheader {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.slideshow {
+    width: 100%;
+    height: 450px;
+}
+
+h1 a:link, h1 a:visited{
+    font-size: 35px;
+    background-color: white;
+    color: black;
+    display: block;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    font-size: large;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    float: center;
+}
+
+nav a:link, nav a:visited
+{
+    background-color: white;
+    color: black;
+    display: block;
+    width: 188px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+nav a:hover
+{
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
