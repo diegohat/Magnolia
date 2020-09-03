@@ -63,3 +63,31 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+.produtos {
+
+    float: left;
+    margin-right: 20px;
+}
+
+#fabrica {
+
+    float: right;
+    margin-left: 20px;
+}
+
+p {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
+.simbol-container {
+    float: left;
+    margin-right: 160px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
