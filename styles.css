@@ -60,25 +60,27 @@ nav a:hover
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
-.produtos {
-
-    float: left;
-    margin-right: 20px;
-}
-
-#fabrica {
+#right {
 
     float: right;
     margin-left: 20px;
 }
 
+#left {
+
+    float: left;
+    margin-right: 20px;
+}
+
 p {
     text-indent: 1.5em;
     text-align: justify;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
@@ -87,7 +89,5 @@ h3 {
 
 .simbol-container {
     float: left;
-    margin-right: 160px;
-    margin-left: 20px;
-    margin-top: 5px;
+    margin: 30px 60px;
 }
